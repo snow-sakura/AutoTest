@@ -2,8 +2,16 @@ package com.snow.testng;
 
 import org.testng.annotations.*;
 
+/**
+ * @className: BasicAnnotation
+ * @package: com.snow.testng
+ * @description: TestNG标签测试
+ * @author: bedou
+ * @date: 2025/9/12 20:58
+ * @version: 1.0
+ * @copyright: Copyright (c) 2025 [Snow Sakura]
+ */
 public class BasicAnnotation {
-
     //最基本的注解，用来把方法标记为测试的一部分
     @Test
     public void testCase001(){
