@@ -1,0 +1,25 @@
+[
+  {
+    "description": "A long-running mock service",
+    "request": {
+      "uri": "/test",
+      "method": "get"
+    },
+    "response": {
+      "text": "Hello, Moco!"
+    }
+  },
+  {
+    "description": "这是一个带cookies信息的get请求",
+    "request": {
+      "uri": "/get/with/cookies",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "text": "这是一个需要携带cookies信息才能访问的get请求"
+    }
+  }
+]
