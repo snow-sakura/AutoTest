@@ -7,9 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Chapter03" />
+        <module name="Chapter05" />
         <module name="Chapter01" />
         <module name="Chapter02" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Chapter02" options="-parameters" />
+      <module name="Chapter03" options="-parameters" />
+      <module name="Chapter05" options="-parameters" />
+    </option>
   </component>
 </project>
